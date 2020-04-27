@@ -1,0 +1,278 @@
+
+body{
+   background: whitesmoke;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0px;
+
+}
+
+img
+{
+    width: 90%;
+    height: 48%;
+    margin: 10px;
+}
+
+#top 
+{ 
+    padding: 20px;
+    font-size: 18px;
+   color:whitesmoke ;
+   background-color: #40372e;
+   
+}
+
+h1, #top p{
+    margin-left: 7%;
+    
+}
+
+main
+{
+  
+    padding: 20px;
+    overflow: auto;
+  
+
+}
+
+.card 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+   width: 400px;
+   height: 370px;
+   margin-right: 40px;
+    border-top: 3px solid red;
+
+}
+
+.foot
+{
+    background-color: #40372e;
+   text-align: center;
+   padding: 10px;
+   font-size: 20px;
+   color: whitesmoke;
+}
+
+h2
+{
+    font-size: 25px;
+    margin: 10px;
+    color: red;
+}
+
+.judul
+{
+    width: 58%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 8%;
+    text-align: center;
+    border-top: 3px solid red;
+}
+.flex-row
+{
+   
+    display: flex;
+  margin: 0px;
+    padding: 20px;
+    
+}
+
+
+a:visited , a:link
+{
+    margin-top: 20px;
+    background-color:  #f44336;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    padding:  0px 15px 0px 15px ;
+    margin-left: 10px;
+  
+}
+
+a:hover , a:active
+{
+    background-color: darkred;
+}
+.info
+{
+    margin-left: 10px;
+}
+
+.m
+{
+    margin-left: 80px;
+}
+nav.menu ul
+{
+    list-style: none;
+    padding: 30px;
+    margin-top: 0;
+    background:  #231f1a;
+    overflow: hidden;
+}
+
+nav.menu ul li
+{
+    float: left;
+}
+
+nav.menu ul li a
+{
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    color: cornsilk;
+    background-color: #231f1a;
+    margin-left: 70px;
+}
+nav.menu ul li a:hover
+{
+    background-color:darkred;
+    padding: 40px 65px ;
+}
+
+.about img{
+    border-radius:100em;
+    border:2px solid black;
+    width:160px;
+    height:160px;
+
+}
+
+
+
+.cards 
+{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+   width: 300px;
+   height: 300px;
+   margin-right: 7%;
+    border-top: 3px solid red;
+    text-align: center;
+
+}
+
+.genre , .genre h4
+{
+ margin-top: 40px;
+ font-size: 15px;
+}
+aside
+{
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+
+.g1 img{
+     width: 800px;height: 400px;
+}
+.g2 img{
+    width: 800px;height: 400px;
+}
+.g3 img{
+    width: 800px;height: 400px;
+}
+
+.g4 img{
+    width: 800px;height: 400px;
+}
+.g5 img{
+    width: 800px;height: 400px;
+}
+
+
+#wrap
+{
+    width: 900px;
+    margin: 0 auto;
+  
+}
+@media screen and (max-width: 1280px) {
+    
+ 
+	main{
+		width: 100%;
+        margin:0px;
+        padding: 10px;
+	}
+	
+ 
+	nav.menu ul li {
+		float:inherit;
+	}
+ 
+	nav.menu ul li a {
+        display: block;
+		padding:5px;
+        font-size: 13px;
+        margin-left: 0px;
+        text-align: center;
+	
+    }
+    nav.menu ul li a:hover
+    {
+        padding: 10px ;
+        margin: 0px;
+    }
+
+ 
+	.content{
+        width:100%;
+      
+	}
+
+
+    .card
+    {
+        padding: 10px;
+        margin: 10px;
+        height: 500px;
+        width: 700px;
+    }
+    .cards
+    {
+        display: none;
+    }
+
+    .judul
+    {
+        width: 90%;
+        height: 400px;
+        text-align: center;
+        margin-left: 5%;
+    }
+    .top
+    {
+        padding: 20px;
+    }
+    .g1 img{
+        width: 300px;height: 300px;
+   }
+   .g2 img{
+    width: 300px;height: 300px;
+   }
+   .g3 img{
+    width: 300px;height: 300px;
+   }
+   
+   .g4 img{
+    width: 300px;height: 300px;
+   }
+   .g5 img{
+    width: 300px;height: 300px;
+   }
+  
+}
